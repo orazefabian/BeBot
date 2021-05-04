@@ -23,8 +23,9 @@ def load_prev_stats():
 
 def load_predictions():
     response = requests.request("GET", url + prediction, headers=headers, params=querystring)
-    with open("../data/data.json", "w") as outfile:
-        json.dump(response.json(), outfile)
+    # with open("../data/data.json", "w") as outfile:
+    #     json.dump(response.json(), outfile)
+    return response.json()
 
 
 def update_stats():
