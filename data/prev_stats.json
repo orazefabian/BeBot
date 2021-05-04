@@ -1,0 +1,41 @@
+{
+  "data": {
+    "market": "classic",
+    "accuracy": {
+      "last_14_days": 0.632173095014111,
+      "yesterday": 0.5357142857142857,
+      "last_30_days": 0.6346749226006192,
+      "last_7_days": 0.6256410256410256
+    },
+    "details": {
+      "last_14_days": {
+        "total": 1087,
+        "won": 672,
+        "lost": 391,
+        "postponed": 24,
+        "pending": 0
+      },
+      "yesterday": {
+        "total": 29,
+        "won": 15,
+        "lost": 13,
+        "postponed": 1,
+        "pending": 0
+      },
+      "last_30_days": {
+        "total": 2651,
+        "won": 1640,
+        "lost": 944,
+        "postponed": 67,
+        "pending": 0
+      },
+      "last_7_days": {
+        "total": 794,
+        "won": 488,
+        "lost": 292,
+        "postponed": 14,
+        "pending": 0
+      }
+    }
+  }
+}

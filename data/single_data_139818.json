@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "id": 139818,
+      "start_date": "2021-04-09T20:00:00",
+      "federation": "UEFA",
+      "season": "2020 - 2021",
+      "competition_cluster": "Spain",
+      "competition_name": "Primera Division",
+      "home_team": "Huesca",
+      "away_team": "Elche",
+      "result": "",
+      "is_expired": false,
+      "last_update_at": "2021-04-09T14:13:14.325053",
+      "available_markets": [
+        "classic"
+      ],
+      "prediction_per_market": {
+        "classic": {
+          "status": "pending",
+          "prediction": "1",
+          "probabilities": {},
+          "odds": {
+            "1": 2.056,
+            "X": 3.271,
+            "2": 3.997,
+            "1X": 1.24,
+            "X2": 1.769,
+            "12": 1.324
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "data": {
+    "stats": {
+      "overall": {
+        "num_encounters": 10,
+        "over_05": 9,
+        "over_15": 8,
+        "over_25": 5,
+        "over_35": 3,
+        "both_teams_scored": 4,
+        "total_goals": 27,
+        "avg_goals_per_match": 2.7
+      },
+      "home_team": {
+        "team_name": "Real Madrid",
+        "goals_scored": 11,
+        "goals_conceived": 16,
+        "won": 3,
+        "draw": 3,
+        "lost": 4,
+        "clean_sheet": 3,
+        "first_half_win": 2,
+        "first_half_draw": 6,
+        "first_half_lost": 2,
+        "avg_goals_scored": 1.1,
+        "avg_goals_conceived": 1.6,
+        "avg_bookie_win_chance": 0.316,
+        "avg_bookie_draw_chance": 0.257,
+        "avg_bookie_lose_chance": 0.435
+      },
+      "away_team": {
+        "team_name": "Barcelona",
+        "goals_scored": 16,
+        "goals_conceived": 11,
+        "won": 4,
+        "draw": 3,
+        "lost": 3,
+        "clean_sheet": 4,
+        "first_half_win": 2,
+        "first_half_draw": 6,
+        "first_half_lost": 2,
+        "avg_goals_scored": 1.6,
+        "avg_goals_conceived": 1.1,
+        "avg_bookie_win_chance": 0.435,
+        "avg_bookie_draw_chance": 0.257,
+        "avg_bookie_lose_chance": 0.316
+      }
+    },
+    "encounters": [
+      {
+        "first_half_result": "1 - 1",
+        "season": "2020 - 2021",
+        "start_date": "2020-10-24",
+        "home_team": "Barcelona",
+        "away_team": "Real Madrid",
+        "competition_name": "Primera Division",
+        "fulltime_result": "1 - 3",
+        "competition_cluster": "Spain"
+      },
+      {
+        "first_half_result": "0 - 0",
+        "season": "2019 - 2020",
+        "start_date": "2020-03-01",
+        "home_team": "Real Madrid",
+        "away_team": "Barcelona",
+        "competition_name": "Primera Division",
+        "fulltime_result": "2 - 0",
+        "competition_cluster": "Spain"
+      },
+      {
+        "first_half_result": "0 - 0",
+        "season": "2019 - 2020",
+        "start_date": "2019-12-18",
+        "home_team": "Barcelona",
+        "away_team": "Real Madrid",
+        "competition_name": "Primera Division",
+        "fulltime_result": "0 - 0",
+        "competition_cluster": "Spain"
+      },
+      {
+        "first_half_result": "0 - 1",
+        "season": "2018 - 2019",
+        "start_date": "2019-03-02",
+        "home_team": "Real Madrid",
+        "away_team": "Barcelona",
+        "competition_name": "Primera Division",
+        "fulltime_result": "0 - 1",
+        "competition_cluster": "Spain"
+      },
+      {
+        "first_half_result": "0 - 0",
+        "season": "2018 - 2019",
+        "start_date": "2019-02-27",
+        "home_team": "Real Madrid",
+        "away_team": "Barcelona",
+        "competition_name": "Copa del Rey",
+        "fulltime_result": "0 - 3",
+        "competition_cluster": "Spain"
+      },
+      {
+        "first_half_result": "0 - 1",
+        "season": "2018 - 2019",
+        "start_date": "2019-02-06",
+        "home_team": "Barcelona",
+        "away_team": "Real Madrid",
+        "competition_name": "Copa del Rey",
+        "fulltime_result": "1 - 1",
+        "competition_cluster": "Spain"
+      },
+      {
+        "first_half_result": "2 - 0",
+        "season": "2018 - 2019",
+        "start_date": "2018-10-28",
+        "home_team": "Barcelona",
+        "away_team": "Real Madrid",
+        "competition_name": "Primera Division",
+        "fulltime_result": "5 - 1",
+        "competition_cluster": "Spain"
+      },
+      {
+        "first_half_result": "1 - 1",
+        "season": "2017 - 2018",
+        "start_date": "2018-05-06",
+        "home_team": "Barcelona",
+        "away_team": "Real Madrid",
+        "competition_name": "Primera Division",
+        "fulltime_result": "2 - 2",
+        "competition_cluster": "Spain"
+      },
+      {
+        "first_half_result": "0 - 0",
+        "season": "2017 - 2018",
+        "start_date": "2017-12-23",
+        "home_team": "Real Madrid",
+        "away_team": "Barcelona",
+        "competition_name": "Primera Division",
+        "fulltime_result": "0 - 3",
+        "competition_cluster": "Spain"
+      },
+      {
+        "first_half_result": "2 - 0",
+        "season": "2017 - 2018",
+        "start_date": "2017-08-16",
+        "home_team": "Real Madrid",
+        "away_team": "Barcelona",
+        "competition_name": "Super Cup",
+        "fulltime_result": "2 - 0",
+        "competition_cluster": "Spain"
+      }
+    ]
+  }
+}
