@@ -4,7 +4,8 @@ import api.soccerAPI as soccer
 get_stats_args = reqparse.RequestParser()
 get_stats_args.add_argument('match_ID', type=int, help='Id of the match')
 
-class Stats(Resource):
+
+class SoccerStats(Resource):
     def get(self, method):
         args = get_stats_args.parse_args()
         if method == 'prevstats':

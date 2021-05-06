@@ -1,4 +1,5 @@
 import requests
+import os
 
 url = "https://football-prediction-api.p.rapidapi.com/api/v2/"
 prediction = "predictions"
@@ -8,9 +9,10 @@ head_to_head = "head-to-head"
 querystring = {"market": "classic", "federation": "UEFA"}
 querystring_market = {"market": "classic"}
 
+
 headers = {
-    'x-rapidapi-key': "88c6e9c30cmsh3d1f271990cf02fp135d81jsnba68844f15ef",
-    'x-rapidapi-host': "football-prediction-api.p.rapidapi.com"
+    'x-rapidapi-key': os.environ['RAPID_KEY'],
+    'x-rapidapi-host': os.environ['RAPID_HOST']
 }
 
 
