@@ -1,5 +1,6 @@
 import requests
 import os
+from dotenv import load_dotenv
 
 url = "https://football-prediction-api.p.rapidapi.com/api/v2/"
 prediction = "predictions"
@@ -9,7 +10,7 @@ head_to_head = "head-to-head"
 querystring = {"market": "classic", "federation": "UEFA"}
 querystring_market = {"market": "classic"}
 
-
+load_dotenv()
 headers = {
     'x-rapidapi-key': os.environ['RAPID_KEY'],
     'x-rapidapi-host': os.environ['RAPID_HOST']
