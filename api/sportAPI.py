@@ -1,13 +1,9 @@
 from flask_restful import Resource, reqparse, abort
 import api.soccerAPI as soccer
 
-get_stats_args = reqparse.RequestParser()
-get_stats_args.add_argument('match_ID', type=int, help='Id of the match')
-
 
 class SoccerStats(Resource):
     def get(self, method):
-        args = get_stats_args.parse_args()
         if method == 'prevstats':
             return soccer.load_prev_stats()
         elif method == 'predict':
@@ -19,7 +15,7 @@ class SoccerStats(Resource):
             abort(404, message='Route not found')
 
 
-class SoccerDetails(Resource){
+class SoccerDetails(Resource):
     def get(self, method, match_ID):
         if method == 'detailpredict':
             return soccer.get_details_to_prediction(match_ID)
@@ -31,4 +27,3 @@ class SoccerDetails(Resource){
             return soccer.get_home_last_10(match_ID)
         else:
             abort(404, message='Route not')
-}
